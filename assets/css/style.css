@@ -16,6 +16,7 @@ body {
 
 }
 
+
 header {
 
     padding: 20px 35px;
@@ -23,6 +24,7 @@ header {
     background-color: #39a6b2
 
 }
+
 
 header h1 {
 
@@ -116,11 +118,13 @@ footer a {
 
 }
 
+
 section {
 
     padding: 60px;
 
 }
+
 
 .hero {
 
@@ -135,6 +139,7 @@ section {
     position: relative;
 
 }
+
 
 .hero-form {
 
@@ -156,6 +161,7 @@ section {
 
 }
 
+
 .hero-form h3 {
 
     font-size: 24px;
@@ -163,12 +169,14 @@ section {
     margin: 0;
 
   }
+
   
   .hero-form p {
 
     margin: 5px 0 15px 0;
 
   }
+
   
   .form-input {
 
@@ -188,11 +196,13 @@ section {
 
   }
 
+
   .hero-form label {
 
     margin: 0 5px;
 
   }
+
 
   .hero-form button{
 
@@ -205,5 +215,45 @@ section {
     padding: 10px 20px;
     
     font-size: 16px;
-    
+
+  }
+
+
+  .intro {
+
+    text-align: center;
+
+  }
+
+
+  .intro h2 {
+
+    font-size: 55px;
+
+    color: #024e76;
+
+    margin-bottom: 35px;
+
+    padding: 0 100px 20px 100px;
+
+    border-bottom: 3px solid;
+
+    border-color: #fce138;
+
+    display: inline-block;
+
+  }
+
+  .intro p {
+
+    line-height: 1.7;
+
+    color: #39a6b2;
+
+    width: 80%;
+
+    font-size: 20px;
+
+    margin: 0 auto;
+
   }
