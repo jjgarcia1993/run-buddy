@@ -229,14 +229,9 @@ section {
   }
 
 
-  .intro {
-
-    text-align: center;
-
-  }
-
-
   .intro p {
+
+   text-align: center;
 
     line-height: 1.7;
 
@@ -253,8 +248,6 @@ section {
 
   .steps {
 
-    text-align: center;
-
     background: #fce138;
 
   }
@@ -262,17 +255,19 @@ section {
 
  .section-title {
 
-    font-size: 55px;
+   padding-bottom: 20px;
 
-    color: #024e76;
+   text-align: center;
 
-    margin-bottom: 35px;
+   margin: 0 auto 35px auto;
 
-    padding: 0 100px 20px 100px;
+   width: 50%;
 
-    display:inline-block;
+   font-size: 55px;
 
-    border-bottom: 3px solid;
+   color: #024e76;
+
+   border-bottom: 3px solid;
 
  }
 
@@ -420,8 +415,6 @@ section {
  
  .contact {
 
-    text-align: center;
-
     background: #024e76;
 
  }
@@ -510,5 +503,12 @@ section {
    font-size: 55px;
 
    color: #fce138;
+
+ }
+
+
+ .flex-row {
+
+   display: flex;
 
  }
