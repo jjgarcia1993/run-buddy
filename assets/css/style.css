@@ -78,55 +78,11 @@ header nav ul {
 
 header nav ul li a {
 
-    margin: 0 30px;
+    padding: 10px 15px;
 
     font-weight: lighter;
 
     font-size: 1.55vw;
-
-}
-
-
-footer {
-
-   flex-wrap: wrap ;
-
-   justify-content: space-between ;
-
-    display: flex;
-
-    background: #fce138;
-
-    width: 100%;
-
-    padding: 40px 35px;
-
-}
-
-
-footer h2 {
-
-    color: #024e76;
-
-    font-size: 30px;
-
-    margin: 0;
-
-}
-
-
-footer div {
-
-    line-height: 1.5;
-
-    text-align: right;
-
-}
-
-
-footer a {
-
-    color: #024e76;
 
 }
 
@@ -152,7 +108,38 @@ section {
 
     flex-wrap: wrap;
 
+    align-items: flex-start;
+
 }
+
+
+
+.hero-cta {
+
+   width: 35%;
+
+   text-align: right;
+
+   margin: 3.5%;
+
+   color: #fff;
+
+   font-size: 18px;
+
+   line-height: 1.2;
+
+ }
+
+ 
+ .hero-cta h2 {
+
+   font-style: italic;
+
+   font-size: 55px;
+
+   color: #fce138;
+
+ }
 
 
 .hero-form {
@@ -263,7 +250,7 @@ section {
 
    width: 50%;
 
-   font-size: 55px;
+   font-size: 48px;
 
    color: #024e76;
 
@@ -396,6 +383,8 @@ section {
  .flex-row {
 
    display: flex;
+
+
 
  }
 
@@ -583,31 +572,78 @@ section {
  }
 
 
- .hero-cta {
+ footer {
 
-   width: 35%;
+   flex-wrap: wrap ;
 
-   text-align: right;
+   justify-content: space-between ;
 
-   margin: 3.5%;
+    display: flex;
 
-   color: #fff;
+    background: #fce138;
 
-   font-size: 18px;
+    width: 100%;
 
-   line-height: 1.3;
+    padding: 40px 35px;
 
- }
-
- 
- .hero-cta h2 {
-
-   font-style: italic;
-
-   font-size: 55px;
-
-   color: #fce138;
-
- }
+}
 
 
+footer h2 {
+
+    color: #024e76;
+
+    font-size: 30px;
+
+    margin: 0;
+
+}
+
+
+footer div {
+
+    line-height: 1.5;
+
+    text-align: right;
+
+}
+
+
+footer a {
+
+    color: #024e76;
+
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 900px) {
+
+      /* this will be applied on any screen smaller than 980px */
+
+   }
+
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+
+      /* this will be applied on any screen between 768px and 575px */
+
+   }
+
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-wdith: 575px) {
+
+      /* this will be applied on any screen smaller than 575px */
+
+   }
+
+}
